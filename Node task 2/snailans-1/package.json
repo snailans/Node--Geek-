@@ -1,0 +1,16 @@
+{
+  "name": "snailans-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snailans/Node--Geek-.git"
+  },
+  "keywords": ["name generator", "generator"],
+  "author": "snailans",
+  "license": "ISC"
+}
