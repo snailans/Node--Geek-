@@ -1,5 +1,3 @@
-"use strict";
-
 const express = require("express");
 const fs = require("fs");
 
@@ -25,20 +23,26 @@ const saveCounterData = () => {
   );
 };
 
+const generateHomePageHTML = (counter) => {
+  return `<h1>Домашняя страница</h1><p>Просмотров: ${counter}</p><a href="/about">About</a>`;
+};
+
+const generateAboutPageHTML = (counter) => {
+  return `<h1>About</h1><p>Просмотров: ${counter}</p><a href="/">Домашняя страница</a>`;
+};
+
 app.get("/", (req, res) => {
   counterData["/"] = (counterData["/"] || 0) + 1;
   saveCounterData();
-  res.send(
-    `<h1>Домашняя страница.</h1><p>Просмотров: ${counterData["/"]}</p><a href="/about">Страница "About"</a>`
-  );
+  const html = generateHomePageHTML(counterData["/"]);
+  res.send(html);
 });
 
 app.get("/about", (req, res) => {
   counterData["/about"] = (counterData["/about"] || 0) + 1;
   saveCounterData();
-  res.send(
-    `<h1>Страница "About".</h1><p>Просмотров: ${counterData["/about"]}</p><a href="/">Домашняя страница</a>`
-  );
+  const html = generateAboutPageHTML(counterData["/about"]);
+  res.send(html);
 });
 
 const PORT = process.env.PORT || 3000;
