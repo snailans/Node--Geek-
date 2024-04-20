@@ -1,0 +1,78 @@
+[
+  {
+    "id": "1",
+    "name": "snailans",
+    "email": "snailans73@gmail.com"
+  },
+  {
+    "id": "2",
+    "name": "Jane Smith",
+    "email": "jane@example.com"
+  },
+  {
+    "id": "3",
+    "name": "Alice Johnson",
+    "email": "alice@example.com"
+  },
+  {
+    "id": "4",
+    "name": "Bob Brown",
+    "email": "bob@example.com"
+  },
+  {
+    "id": "5",
+    "name": "Emily Davis",
+    "email": "emily@example.com"
+  },
+  {
+    "id": "6",
+    "name": "Michael Wilson",
+    "email": "michael@example.com"
+  },
+  {
+    "id": "7",
+    "name": "Sarah Martinez",
+    "email": "sarah@example.com"
+  },
+  {
+    "id": "8",
+    "name": "David Taylor",
+    "email": "david@example.com"
+  },
+  {
+    "id": "9",
+    "name": "Jessica Anderson",
+    "email": "jessica@example.com"
+  },
+  {
+    "id": "10",
+    "name": "Daniel Thomas",
+    "email": "daniel@example.com"
+  },
+  {
+    "id": "11",
+    "name": "Linda Hernandez",
+    "email": "linda@example.com"
+  },
+  {
+    "id": "12",
+    "name": "Christopher Young",
+    "email": "christopher@example.com"
+  },
+  {
+    "id": "13",
+    "name": "Amanda King",
+    "email": "amanda@example.com"
+  },
+  {},
+  {
+    "id": "15",
+    "name": "Ryan Miller",
+    "email": "ryan@example.com"
+  },
+  {
+    "id": "16",
+    "name": "Mufasa",
+    "email": "mufasa@example.com"
+  }
+]
